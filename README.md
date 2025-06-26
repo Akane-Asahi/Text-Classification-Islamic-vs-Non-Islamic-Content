@@ -1,26 +1,40 @@
-# Text-Classification-Islamic-vs-Non-Islamic-Content
-
 # 🕌 Islamic Text Classifier (AI/NLP Project)
 
-This is a simple but powerful machine learning project that classifies whether a given piece of text is **Islamic** (faith-related) or **Non-Islamic** (general/worldly content). It’s my first practical step toward building an explainable Muslim scholar chatbot, guided by responsible and transparent AI.
+This project uses machine learning to classify whether a given piece of text is **Islamic** (faith-based) or **Non-Islamic** (general/worldly content). It's the first step in a broader roadmap to build a responsible, explainable **Muslim scholar chatbot** — grounded in verified Islamic knowledge and ethical AI principles.
 
 ## 📌 Project Overview
 
-- **Goal**: Train an NLP model to distinguish Islamic vs Non-Islamic content.
-- **Tech Stack**: Python, scikit-learn, TF-IDF vectorizer, Naive Bayes classifier
-- **Dataset**: 200 text samples (100 Islamic, 100 Non-Islamic), curated for balance and clarity.
+- **Goal**: Train a text classification model to distinguish Islamic content from non-Islamic content.
+- **Approach**: TF-IDF vectorization + Naive Bayes classifier
+- **Dataset**: 200 short texts (100 Islamic, 100 Non-Islamic)
+- **Result**: Achieved **96% accuracy** on a diverse validation set
 
-## 📊 Results
+This notebook serves as a foundation for more advanced NLP projects like semantic search, intent classification, and faith-safe chatbots.
 
-Achieved **100% accuracy** on a validation set using traditional ML techniques.
+---
 
-### ✅ Classification Report:
-| Label         | Precision | Recall | F1-Score |
-|---------------|-----------|--------|----------|
-| Islamic       | 1.00      | 1.00   | 1.00     |
-| Non-Islamic   | 1.00      | 1.00   | 1.00     |
+## 🏃 Getting Started
 
-### 🔍 Confusion Matrix:
+### 🔧 Requirements
 
-            Predicted
-           Islamic  Non-Islamic
+- Python 3.8+
+- Jupyter Notebook or Google Colab
+- Libraries:
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+
+### 💻 Run Locally
+
+1. Clone the repository:
+```bash
+git clone https://github.com/YOUR_USERNAME/islamic-text-classifier.git
+cd islamic-text-classifier
+```
+
+(Optional) Create a virtual environment:
+```bash
+python -m venv venv
+source venv/bin/activate  # or use `venv\Scripts\activate` on Windows
+```
