@@ -22,3 +22,5 @@ Achieved **100% accuracy** on a validation set using traditional ML techniques.
 
 ### 🔍 Confusion Matrix:
 
+            Predicted
+           Islamic  Non-Islamic
