@@ -6,7 +6,7 @@ This project uses machine learning to classify whether a given piece of text is 
 
 - **Goal**: Train a text classification model to distinguish Islamic content from non-Islamic content.
 - **Approach**: TF-IDF vectorization + Naive Bayes classifier
-- **Dataset**: 200 short texts (100 Islamic, 100 Non-Islamic)
+- **Dataset**: 200 short texts (121 Islamic, 110 Non-Islamic)
 - **Result**: Achieved **96% accuracy** on a diverse validation set
 
 This notebook serves as a foundation for more advanced NLP projects like semantic search, intent classification, and faith-safe chatbots.
