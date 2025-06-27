@@ -12,6 +12,7 @@ But the most interesting part for this classification is, how it perform in the 
 - **Result**: Achieved **96% accuracy** on a diverse validation set.
 
 Here is the confusion matrix showing the model's performance:
+
 ![Confusion Matrix](confusion_matrix.png)
 
 | Label         | Precision | Recall | F1-Score | Support  |
@@ -76,6 +77,7 @@ Built by Telot as part of a personal and academic journey to explore the interse
 This project is my first practical step toward a Muslim scholar chatbot that is rooted in verified sources and ethical design.
 
 📬 Contact
+
 Want to collaborate, mentor, or discuss faith-aware AI?
 📧 Reach out at: heytelot@gmail.com
 🌐 LinkedIn: 
