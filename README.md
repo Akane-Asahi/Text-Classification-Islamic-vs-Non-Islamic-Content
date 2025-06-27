@@ -2,6 +2,8 @@
 
 This project uses machine learning to classify whether a given piece of text is **Islamic** (faith-based) or **Non-Islamic** (general/worldly content). It's the first step in a broader roadmap to build a responsible, explainable **Muslim scholar chatbot** — grounded in verified Islamic knowledge and ethical AI principles.
 
+But the most interesting part for this classification is, how it perform in the grey area. There are many miracles and science based statements in Quran that are stated 1400 years ago. So I put some of those discovery in Islamic where it states in Quran it was stated. And I also put those exact same discoveries without mentioning any Quranic reference. And It still surprisingly did well. But of course there are always rooms to make it better, especially if the dataset is way bigger than this.
+
 ## 📌 Project Overview
 
 - **Goal**: Train a text classification model to distinguish Islamic content from non-Islamic content.
@@ -59,14 +61,14 @@ Upload islamic_text_data.csv when prompted
 Run all cells in the notebook
 
 📁 Project Structure
-bash
-Copy
-Edit
+```bash
 islamic-text-classifier/
 ├── islamic_text_data.csv        # Input dataset
 ├── classifier.ipynb             # Jupyter notebook with full code
 ├── requirements.txt             # Install dependencies
 └── README.md                    # Project overview and instructions
+```
+
 📊 Results
 Label	Precision	Recall	F1-Score
 Islamic	1.00	0.89	0.94
