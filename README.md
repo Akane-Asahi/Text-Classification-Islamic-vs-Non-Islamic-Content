@@ -25,6 +25,10 @@ Edit
 weighted avg       0.96      0.96      0.96        47
 </details>
 
+| Label         | Precision | Recall | F1-Score |
+|---------------|-----------|--------|----------|
+| Islamic       | 1.00      | 1.00   | 1.00     |
+| Non-Islamic   | 1.00      | 1.00   | 1.00     |
 
 This notebook serves as a foundation for more advanced NLP projects like semantic search, intent classification, and faith-safe chatbots.
 
