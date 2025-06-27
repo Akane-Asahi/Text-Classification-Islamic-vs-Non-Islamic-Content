@@ -7,9 +7,10 @@ But the most interesting part for this classification is, how it perform in the 
 ## 📌 Project Overview
 
 - **Goal**: Train a text classification model to distinguish Islamic content from non-Islamic content.
-- **Approach**: TF-IDF vectorization + Naive Bayes classifier
-- **Dataset**: 231 short texts (121 Islamic, 110 Non-Islamic)
-- **Result**: Achieved **96% accuracy** on a diverse validation set
+- **Approach**: TF-IDF vectorization + Naive Bayes classifier.
+- **Dataset**: 231 short texts (121 Islamic, 110 Non-Islamic).
+- **Result**: Achieved **96% accuracy** on a diverse validation set.
+
 Here is the confusion matrix showing the model's performance:
 ![Confusion Matrix](confusion_matrix.png)
 
@@ -22,9 +23,7 @@ This notebook serves as a foundation for more advanced NLP projects like semanti
 
 ---
 
-## 🏃 Getting Started
-
-🌐 Run on Google Colab
+### 🌐 Run on Google Colab
 Click below to run instantly in the cloud (no installation needed):
 
 <p align="left">
@@ -46,40 +45,6 @@ sample_data/
 ├── islamic_text_data.csv        # Input dataset
 ```
 
-### 🔧 Requirements
-
-- Python 3.8+
-- Jupyter Notebook or Google Colab
-- Libraries:
-  - pandas
-  - scikit-learn
-  - matplotlib
-  - seaborn
-
-### 💻 Run Locally
-
-1. Clone the repository:
-```bash
-git clone https://github.com/YOUR_USERNAME/islamic-text-classifier.git
-cd islamic-text-classifier
-```
-
-2. (Optional) Create a virtual environment:
-```bash
-python -m venv venv
-source venv/bin/activate  # or use `venv\Scripts\activate` on Windows
-```
-3. Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-4. Run the notebook:
-
-```bash
-jupyter notebook classifier.ipynb
-```
-
 
 🧠 What I Learned
 How to process text data using TF-IDF
@@ -92,32 +57,31 @@ How to analyze model performance using precision, recall, F1, and confusion matr
 
 This project is like building the "eyes" of a future AI system — it learns to see and understand what kind of content it's dealing with before responding.
 
-🧱 Next Steps (AI Research Roadmap)
+### 🧱 Next Steps (AI Research Roadmap)
+
 This is the first step in building an explainable, ethical AI system for Islamic knowledge applications:
 
 🔎 Project 2: Qur’an & Hadith semantic search (QA retrieval)
-
 🧠 Project 3: Islamic intent classifier (Dialogue Act Tagging)
-
 🧩 Project 4: Build a rule-based + ML-based chatbot engine
-
 🤖 Project 5: Fine-tune LLMs on faith-aligned data (e.g., FaithDial)
 
-🤝 Author & Motivation
-Built by [Your Name] as part of a personal and academic journey to explore the intersection of:
+## 🤝 Author & Motivation
+Built by Telot as part of a personal and academic journey to explore the intersection of:
 
 📜 Faith-based knowledge
-
 🧠 Responsible AI
-
 🧪 Research in NLP and conversational agents
 
 This project is my first practical step toward a Muslim scholar chatbot that is rooted in verified sources and ethical design.
 
 📬 Contact
 Want to collaborate, mentor, or discuss faith-aware AI?
-📧 Reach out at: your_email@example.com
-🌐 LinkedIn: [Your LinkedIn Profile]
+📧 Reach out at: heytelot@gmail.com
+🌐 LinkedIn: 
+<a href="https://www.linkedin.com/in/mosfaiulalam/">
+  <img src="https://img.shields.io/badge/Connect%20on%20LinkedIn-Mosfaiul%20Alam-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn" width="250"/>
+</a>
 
 🪪 License
 This project is open source under the MIT License.
