@@ -27,8 +27,8 @@ This notebook serves as a foundation for more advanced NLP projects like semanti
 ## ▶️ Run on Google Colab
 
 Step 1: <a href="https://colab.research.google.com/drive/1WSTnYBDUIw2wnAmedWeBwngHRGOz337z?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab to run instantly in the cloud (no installation needed) " style="height:28px; vertical-align:middle; margin-right:5px"></a>  
-Step 2: Upload islamic_text_data.csv inside the sample_data folder
-Step 3: Run all cells in the notebook
+Step 2: Upload islamic_text_data.csv inside the sample_data folder  
+Step 3: Run all cells in the notebook  
 
 📁 Project Structure
 
