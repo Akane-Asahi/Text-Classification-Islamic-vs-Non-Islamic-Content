@@ -12,23 +12,13 @@ But the most interesting part for this classification is, how it perform in the 
 - **Result**: Achieved **96% accuracy** on a diverse validation set
 
 <details> <summary><strong>📊 Classification Report</strong></summary>
-markdown
-Copy
-Edit
-              precision    recall  f1-score   support
-
-     Islamic       1.00      0.89      0.94        19
- Non-Islamic       0.93      1.00      0.97        28
-
-    accuracy                           0.96        47
-   macro avg       0.97      0.95      0.95        47
-weighted avg       0.96      0.96      0.96        47
+  ![Confusion Matrix](confusion_matrix.png)
 </details>
 
-| Label         | Precision | Recall | F1-Score |
-|---------------|-----------|--------|----------|
-| Islamic       | 1.00      | 1.00   | 1.00     |
-| Non-Islamic   | 1.00      | 1.00   | 1.00     |
+| Label         | Precision | Recall | F1-Score | Support  |
+|---------------|-----------|--------|----------|----------|
+| Islamic       | 1.00      | 0.89   | 0.94     | 19       |
+| Non-Islamic   | 0.93      | 1.00   | 0.97     | 28       |
 
 This notebook serves as a foundation for more advanced NLP projects like semantic search, intent classification, and faith-safe chatbots.
 
