@@ -47,11 +47,12 @@ sample_data/
 - How to analyze model performance using precision, recall, F1, and confusion matrix
 - This project is like building the "eyes" of a future AI system — it learns to see and understand what kind of content it's dealing with before responding.
 
-### 🧱 Next Steps (AI Research Roadmap)
+### 🔬 My AI Research Roadmap
 
 This is the first step in building an explainable, ethical AI system for Islamic knowledge applications:
 
-🔎 Project 2: Qur’an & Hadith semantic search (QA retrieval)  
+🔎 Project 2: Qur’an & Hadith semantic search (QA retrieval) 
+[![GitHub Repository](https://img.shields.io/badge/View-GitHub_Repository-black?logo=github)](https://github.com/Akane-Asahi/Qur-an-Hadith-semantic-search-QA-retrieval-)  
 🧠 Project 3: Islamic intent classifier (Dialogue Act Tagging)  
 🧩 Project 4: Build a rule-based + ML-based chatbot engine  
 🤖 Project 5: Fine-tune LLMs on faith-aligned data (e.g., FaithDial)  
