@@ -52,8 +52,8 @@ sample_data/
 This is the first step in building an explainable, ethical AI system for Islamic knowledge applications:
 
 🔎 Project 2: Qur’an & Hadith semantic search (QA retrieval) <a href="https://github.com/Akane-Asahi/Qur-an-Hadith-semantic-search-QA-retrieval-">
-  <img src="https://img.shields.io/badge/Visit-GitHub_Repo-blue?style=for-the-badge&logo=github" alt="GitHub Repository">
-</a>  
+  <img src="https://img.shields.io/badge/Project_2-Qur’an_&_Hadith_semantic_search_(QA_retrieval)-blue?style=for-the-badge&logo=github" alt="GitHub Repository">
+</a> 
 🧠 Project 3: Islamic intent classifier (Dialogue Act Tagging)  
 🧩 Project 4: Build a rule-based + ML-based chatbot engine  
 🤖 Project 5: Fine-tune LLMs on faith-aligned data (e.g., FaithDial)  
