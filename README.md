@@ -33,8 +33,96 @@ git clone https://github.com/YOUR_USERNAME/islamic-text-classifier.git
 cd islamic-text-classifier
 ```
 
-(Optional) Create a virtual environment:
+2. (Optional) Create a virtual environment:
 ```bash
 python -m venv venv
 source venv/bin/activate  # or use `venv\Scripts\activate` on Windows
 ```
+3. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+4. Run the notebook:
+
+```bash
+jupyter notebook classifier.ipynb
+```
+
+🌐 Run on Google Colab
+Click below to run instantly in the cloud (no installation needed):
+
+Then:
+
+Upload islamic_text_data.csv when prompted
+
+Run all cells in the notebook
+
+📁 Project Structure
+bash
+Copy
+Edit
+islamic-text-classifier/
+├── islamic_text_data.csv        # Input dataset
+├── classifier.ipynb             # Jupyter notebook with full code
+├── requirements.txt             # Install dependencies
+└── README.md                    # Project overview and instructions
+📊 Results
+Label	Precision	Recall	F1-Score
+Islamic	1.00	0.89	0.94
+Non-Islamic	0.93	1.00	0.97
+
+Overall Accuracy: 96%
+
+Macro Avg F1: 0.95
+
+🔍 Confusion Matrix:
+nginx
+Copy
+Edit
+                Predicted
+               Islamic  Non-Islamic
+Actual Islamic     17         2
+Actual Non-Islamic  0        28
+The model correctly predicted all Non-Islamic examples and most Islamic ones. Just 2 Islamic texts were misclassified — a good sign of generalization.
+
+🧠 What I Learned
+How to process text data using TF-IDF
+
+How Naive Bayes works for real-world text classification
+
+Importance of recall in faith-based models (to avoid missing relevant Islamic content)
+
+How to analyze model performance using precision, recall, F1, and confusion matrix
+
+This project is like building the "eyes" of a future AI system — it learns to see and understand what kind of content it's dealing with before responding.
+
+🧱 Next Steps (AI Research Roadmap)
+This is the first step in building an explainable, ethical AI system for Islamic knowledge applications:
+
+🔎 Project 2: Qur’an & Hadith semantic search (QA retrieval)
+
+🧠 Project 3: Islamic intent classifier (Dialogue Act Tagging)
+
+🧩 Project 4: Build a rule-based + ML-based chatbot engine
+
+🤖 Project 5: Fine-tune LLMs on faith-aligned data (e.g., FaithDial)
+
+🤝 Author & Motivation
+Built by [Your Name] as part of a personal and academic journey to explore the intersection of:
+
+📜 Faith-based knowledge
+
+🧠 Responsible AI
+
+🧪 Research in NLP and conversational agents
+
+This project is my first practical step toward a Muslim scholar chatbot that is rooted in verified sources and ethical design.
+
+📬 Contact
+Want to collaborate, mentor, or discuss faith-aware AI?
+📧 Reach out at: your_email@example.com
+🌐 LinkedIn: [Your LinkedIn Profile]
+
+🪪 License
+This project is open source under the MIT License.
