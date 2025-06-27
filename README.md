@@ -24,20 +24,17 @@ This notebook serves as a foundation for more advanced NLP projects like semanti
 
 ---
 
-### 🌐 Run on Google Colab
-Click below to run instantly in the cloud (no installation needed):
+## ▶️ Run on Google Colab
 
+- Click below to run instantly in the cloud (no installation needed):
 <p align="left">
   <a href="https://colab.research.google.com/drive/1WSTnYBDUIw2wnAmedWeBwngHRGOz337z?usp=sharing">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" style="width:180px; padding:10px"/>
   </a>
 </p>
 
-Then:
-
-Upload islamic_text_data.csv when prompted
-
-Run all cells in the notebook
+- Upload islamic_text_data.csv when prompted
+- Run all cells in the notebook
 
 📁 Project Structure
 
@@ -46,37 +43,35 @@ sample_data/
 ├── islamic_text_data.csv        # Input dataset
 ```
 
+---
 
-🧠 What I Learned
-How to process text data using TF-IDF
+## 🧠 What I Learned
 
-How Naive Bayes works for real-world text classification
-
-Importance of recall in faith-based models (to avoid missing relevant Islamic content)
-
-How to analyze model performance using precision, recall, F1, and confusion matrix
-
-This project is like building the "eyes" of a future AI system — it learns to see and understand what kind of content it's dealing with before responding.
+- How to process text data using TF-IDF
+- How Naive Bayes works for real-world text classification
+- Importance of recall in faith-based models (to avoid missing relevant Islamic content)
+- How to analyze model performance using precision, recall, F1, and confusion matrix
+- This project is like building the "eyes" of a future AI system — it learns to see and understand what kind of content it's dealing with before responding.
 
 ### 🧱 Next Steps (AI Research Roadmap)
 
 This is the first step in building an explainable, ethical AI system for Islamic knowledge applications:
 
-🔎 Project 2: Qur’an & Hadith semantic search (QA retrieval)
-🧠 Project 3: Islamic intent classifier (Dialogue Act Tagging)
-🧩 Project 4: Build a rule-based + ML-based chatbot engine
-🤖 Project 5: Fine-tune LLMs on faith-aligned data (e.g., FaithDial)
+🔎 Project 2: Qur’an & Hadith semantic search (QA retrieval)  
+🧠 Project 3: Islamic intent classifier (Dialogue Act Tagging)  
+🧩 Project 4: Build a rule-based + ML-based chatbot engine  
+🤖 Project 5: Fine-tune LLMs on faith-aligned data (e.g., FaithDial)  
 
 ## 🤝 Author & Motivation
 Built by Telot as part of a personal and academic journey to explore the intersection of:
 
-📜 Faith-based knowledge
-🧠 Responsible AI
-🧪 Research in NLP and conversational agents
+📜 Faith-based knowledge  
+🧠 Responsible AI  
+🧪 Research in NLP and conversational agents  
 
 This project is my first practical step toward a Muslim scholar chatbot that is rooted in verified sources and ethical design.
 
-📬 Contact
+## 📬 Contact
 
 Want to collaborate, mentor, or discuss faith-aware AI?
 📧 Reach out at: heytelot@gmail.com
