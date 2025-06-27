@@ -27,7 +27,7 @@ This notebook serves as a foundation for more advanced NLP projects like semanti
 🌐 Run on Google Colab
 Click below to run instantly in the cloud (no installation needed):
 
-<p align="center">
+<p align="left">
   <a href="https://colab.research.google.com/drive/1WSTnYBDUIw2wnAmedWeBwngHRGOz337z?usp=sharing">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab" style="width:180px; padding:10px"/>
   </a>
