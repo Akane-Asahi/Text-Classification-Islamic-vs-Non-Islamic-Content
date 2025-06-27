@@ -10,10 +10,8 @@ But the most interesting part for this classification is, how it perform in the 
 - **Approach**: TF-IDF vectorization + Naive Bayes classifier
 - **Dataset**: 231 short texts (121 Islamic, 110 Non-Islamic)
 - **Result**: Achieved **96% accuracy** on a diverse validation set
-
-<details> <summary><strong>📊 Classification Report</strong></summary>
-  ![Confusion Matrix](confusion_matrix.png)
-</details>
+Here is the confusion matrix showing the model's performance:
+![Confusion Matrix](confusion_matrix.png)
 
 | Label         | Precision | Recall | F1-Score | Support  |
 |---------------|-----------|--------|----------|----------|
