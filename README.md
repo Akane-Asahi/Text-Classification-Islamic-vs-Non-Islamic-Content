@@ -24,6 +24,26 @@ This notebook serves as a foundation for more advanced NLP projects like semanti
 
 ## 🏃 Getting Started
 
+🌐 Run on Google Colab
+Click below to run instantly in the cloud (no installation needed):
+
+<a href="https://colab.research.google.com/drive/1WSTnYBDUIw2wnAmedWeBwngHRGOz337z?usp=sharing">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
+
+Then:
+
+Upload islamic_text_data.csv when prompted
+
+Run all cells in the notebook
+
+📁 Project Structure
+
+```bash
+sample_data/
+├── islamic_text_data.csv        # Input dataset
+```
+
 ### 🔧 Requirements
 
 - Python 3.8+
@@ -58,42 +78,6 @@ pip install -r requirements.txt
 jupyter notebook classifier.ipynb
 ```
 
-🌐 Run on Google Colab
-Click below to run instantly in the cloud (no installation needed):
-<a href="https://colab.research.google.com/drive/1WSTnYBDUIw2wnAmedWeBwngHRGOz337z?usp=sharing">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
-Then:
-
-Upload islamic_text_data.csv when prompted
-
-Run all cells in the notebook
-
-📁 Project Structure
-
-```bash
-sample_data/
-├── islamic_text_data.csv        # Input dataset
-```
-
-📊 Results
-Label	Precision	Recall	F1-Score
-Islamic	1.00	0.89	0.94
-Non-Islamic	0.93	1.00	0.97
-
-Overall Accuracy: 96%
-
-Macro Avg F1: 0.95
-
-🔍 Confusion Matrix:
-nginx
-Copy
-Edit
-                Predicted
-               Islamic  Non-Islamic
-Actual Islamic     17         2
-Actual Non-Islamic  0        28
-The model correctly predicted all Non-Islamic examples and most Islamic ones. Just 2 Islamic texts were misclassified — a good sign of generalization.
 
 🧠 What I Learned
 How to process text data using TF-IDF
