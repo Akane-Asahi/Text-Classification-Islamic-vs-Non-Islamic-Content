@@ -4,6 +4,12 @@ This project uses machine learning to classify whether a given piece of text is 
 
 But the most interesting part for this classification is, how it perform in the grey area. There are many miracles and science based statements in Quran that are stated 1400 years ago. So I put some of those discovery in Islamic where it states in Quran it was stated. And I also put those exact same discoveries without mentioning any Quranic reference. And It still surprisingly did well. But of course there are always rooms to make it better, especially if the dataset is way bigger than this.
 
+## ▶️ Run on Google Colab
+
+Step 1: <a href="https://colab.research.google.com/drive/1WSTnYBDUIw2wnAmedWeBwngHRGOz337z?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab to run instantly in the cloud (no installation needed) " style="height:28px; vertical-align:middle; margin-right:5px"></a>  
+Step 2: Upload islamic_text_data.csv inside the sample_data folder  
+Step 3: Run all cells in the notebook  
+
 ## 📌 Project Overview
 
 - **Goal**: Train a text classification model to distinguish Islamic content from non-Islamic content.
@@ -23,12 +29,6 @@ Here is the confusion matrix showing the model's performance:
 This notebook serves as a foundation for more advanced NLP projects like semantic search, intent classification, and faith-safe chatbots.
 
 ---
-
-## ▶️ Run on Google Colab
-
-Step 1: <a href="https://colab.research.google.com/drive/1WSTnYBDUIw2wnAmedWeBwngHRGOz337z?usp=sharing"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab to run instantly in the cloud (no installation needed) " style="height:28px; vertical-align:middle; margin-right:5px"></a>  
-Step 2: Upload islamic_text_data.csv inside the sample_data folder  
-Step 3: Run all cells in the notebook  
 
 📁 Project Structure
 
